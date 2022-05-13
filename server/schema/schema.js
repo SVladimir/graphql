@@ -2,20 +2,24 @@ const graphql = require('graphql');
 
 const {GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID, GraphQLInt, GraphQLList} = graphql;
 
+/*
 const movies = [
-    {id: '1', name: 'PF', genre: 'Crime', directorId: '1'},
-    {id: '2', name: 'Inception', genre: 'Fantastic', directorId: '2'},
-    {id: 3, name: 'Interstellar', genre: 'Sci-Fi', directorId: '2'},
-    {id: 4, name: 'Tenet', genre: 'Fantastxic', directorId: '2'},
-    {id: 5, name: 'Interstellar1', genre: 'Sci-Fi', directorId: '3'},
-    {id: 6, name: 'Tenet', genre: 'Fantastxic', directorId: '3'}
+    { "name": "PF", "genre": "Crime", "directorId":"627dfc494b7a23952954048b"},
+    {"name": 'Inception', "genre": "Fantastic", "directorId":"627dff294b7a23952954048d" },
+    {"name": "Interstellar", "genre": "Sci-Fi", "directorId":"627dff294b7a23952954048d" },
+    {"name": "Tenet", "genre": "Fantastxic", "directorId":"627dff294b7a23952954048d" },
+    {"name": "Interstellar1", "genre": "Sci-Fi", "directorId":"627dff564b7a23952954048f" },
+    { "name": "Tenet", "genre": "Fantastxic", "directorId":"627dff564b7a23952954048f" },
+    { "name": "Te2net", "genre": "F11111antastxic", "directorId":"dff564b7a23952954048f" }
+
 ];
 
 const directors = [
-    {id: '1', name: 'Quentin Tarantino', age: 122},
-    {id: '2', name: 'Christopher Nolan', age: 22},
-    {id: '3', name: 'Gay Richy', age: 22}
+    {"name": "Quentin Tarantino", "age": 122},//627dfc494b7a23952954048b
+    { "name": "Christopher Nolan", "age": 22},
+    { "name": 'Gay Richy', "age": 22}627dff564b7a23952954048f
 ];
+*/
 
 const MovieType = new GraphQLObjectType({
     name: 'Movie',
